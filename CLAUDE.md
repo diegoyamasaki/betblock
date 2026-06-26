@@ -131,10 +131,11 @@ Se `elementos ocultados: 0` mas há bet ads visíveis → inspecionar o elemento
 ## Publicação na Chrome Web Store
 
 Ver `store_listing.md` para checklist completo. Resumo:
-1. Hospedar `privacy_policy.html` no GitHub Pages
-2. Conta de dev em `chrome.google.com/webstore/devconsole` (U$5 único)
-3. Upload do `betblock.zip`
-4. Revisão leva 1–3 dias úteis
+1. ✅ Repositório: https://github.com/diegoyamasaki/betblock
+2. ✅ Política de privacidade: https://diegoyamasaki.github.io/betblock/privacy_policy.html
+3. Conta de dev em `chrome.google.com/webstore/devconsole` (U$5 único)
+4. Upload do `betblock.zip`
+5. Revisão leva 1–3 dias úteis
 
 ## Comunicação background ↔ content ↔ popup
 
