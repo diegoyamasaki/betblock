@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BetBlock — Política de Privacidade</title>
+  <style>
+    body { font-family: sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.7; }
+    h1 { color: #c62828; } h2 { margin-top: 2em; }
+    footer { margin-top: 3em; color: #999; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <h1>BetBlock — Política de Privacidade</h1>
+  <p><strong>Última atualização:</strong> Junho de 2026</p>
+
+  <h2>1. Dados coletados</h2>
+  <p>O BetBlock <strong>não coleta, armazena, transmite nem compartilha nenhum dado pessoal</strong> dos usuários.</p>
+  <p>A extensão armazena localmente no seu navegador apenas:</p>
+  <ul>
+    <li>Preferência de ativação (ligado/desligado) — via <code>chrome.storage.local</code></li>
+    <li>Contador de anúncios bloqueados na sessão — via <code>chrome.storage.local</code></li>
+  </ul>
+  <p>Esses dados ficam exclusivamente no seu dispositivo e nunca são enviados a nenhum servidor externo.</p>
+
+  <h2>2. Permissões utilizadas</h2>
+  <ul>
+    <li><strong>declarativeNetRequest:</strong> bloqueia requisições de rede para domínios de apostas conhecidos antes de carregar.</li>
+    <li><strong>storage:</strong> salva preferências locais no navegador.</li>
+    <li><strong>tabs:</strong> lê o ID da aba ativa para exibir a contagem por página no popup.</li>
+    <li><strong>host_permissions (&lt;all_urls&gt;):</strong> necessário para injetar o script de detecção em todas as páginas e identificar anúncios de apostas no conteúdo da página.</li>
+  </ul>
+  <p>Nenhuma dessas permissões é utilizada para rastrear, identificar ou transmitir dados sobre o usuário ou sobre os sites visitados.</p>
+
+  <h2>3. Serviços de terceiros</h2>
+  <p>O BetBlock não utiliza nenhum serviço de terceiros, SDK de analytics, telemetria ou sistema de relatório de erros.</p>
+
+  <h2>4. Menores de idade</h2>
+  <p>Esta extensão não coleta dados de nenhum usuário, incluindo menores de idade.</p>
+
+  <h2>5. Alterações nesta política</h2>
+  <p>Qualquer alteração será publicada nesta página com atualização da data.</p>
+
+  <h2>6. Contato</h2>
+  <p>Dúvidas: <a href="https://github.com/diegoyamasaki/betblock/issues">github.com/diegoyamasaki/betblock/issues</a></p>
+
+  <footer>BetBlock é um software de código aberto, gratuito, sem fins lucrativos.</footer>
+</body>
+</html>
